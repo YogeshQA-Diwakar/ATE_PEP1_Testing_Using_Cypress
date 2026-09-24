@@ -28,17 +28,11 @@ Update the cypress.config.js file with details of specPattern and baseURL
 Create a file with the name Test.spec.js and describe your first project
 
 **Detailed Scenario 1:**
-•
-Create test cases to open the website on localhost: 4200
-•
-In the same test, write code to click on forms and the forms' layout
-•
-Go to the code of the application ngx-admin in vscode, and edit the attributes of Sign In button, add an attribute and value as data-cy="signInButton"
-•
-The application will deploy automatically
-•
-Inspect the button using the new attribute and write Cypress code for the Button element
-•
-Under the horizontal form, inspect the email and type the text. Inspect the password, type the text, and click on the checkbox
-•
-Use Cypress Assertion to validate if the form contains a button with the name Sign in
+
+1>Create test cases to open the website on localhost: 4200
+2>In the same test, write code to click on forms and the forms' layout
+3>Go to the code of the application ngx-admin in vscode, and edit the attributes of Sign In button, add an attribute and       value as data-cy="signInButton"
+4>The application will deploy automatically
+5>Inspect the button using the new attribute and write Cypress code for the Button element
+6>Under the horizontal form, inspect the email and type the text. Inspect the password, type the text, and click on the        checkbox
+7>Use Cypress Assertion to validate if the form contains a button with the name Sign in
