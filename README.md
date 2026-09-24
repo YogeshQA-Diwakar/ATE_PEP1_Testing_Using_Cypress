@@ -27,16 +27,44 @@ Update the cypress.config.js file with details of specPattern and baseURL
 •
 Create a file with the name Test.spec.js and describe your first project
 
-**Detailed Scenario 2:**
+**Detailed Scenario 1/2/3:**
 
+Detailed Scenario 1:
+•
+Create test cases to open the website on localhost: 4200
+•
+In the same test, write code to click on forms and the forms' layout
+•
+Go to the code of the application ngx-admin in vscode, and edit the attributes of Sign In button, add an attribute and value as data-cy="signInButton"
+•
+The application will deploy automatically
+•
+Inspect the button using the new attribute and write Cypress code for the Button element
+•
+Under the horizontal form, inspect the email and type the text. Inspect the password, type the text, and click on the checkbox
+•
+Use Cypress Assertion to validate if the form contains a button with the name Sign in
 Detailed Scenario 2:
 •
-1>Create a test case to open the website on localhost:4200. Under the form layout, write code to find all three radio buttons
+Create a test case to open the website on localhost:4200. Under the form layout, write code to find all three radio buttons
 •
-2>Inspect the first radio button, check if it is enabled or not, and then click on it
+Inspect the first radio button, check if it is enabled or not, and then click on it
 •
-3>Now, inspect radio button 2, check if it is enabled or not, and then click on it
+Now, inspect radio button 2, check if it is enabled or not, and then click on it
 •
-4>Validate that radio button 1 should not be selected. Use cypress assertion
+Validate that radio button 1 should not be selected. Use cypress assertion
+•
+Validate whether radio button 3 is disabled or not. If radio button 3 is disabled, then use Cypress Assertion
+Detailed Scenario 3:
+•
+Create a test case to open the website on localhost: 4200
+•
+Write test code to navigate to modals and overlays, then click on them
+•
+Inspect the toaster and click on it in the application
+•
+There are three checkboxes under this. Use the check method to select the checkboxes
+•
+Again, inspect all three checkboxes and click on only the second checkbox using the click() method
 •
 5>Validate whether radio button 3 is disabled or not. If radio button 3 is disabled, then use Cypress Assertion
