@@ -27,12 +27,16 @@ Update the cypress.config.js file with details of specPattern and baseURL
 •
 Create a file with the name Test.spec.js and describe your first project
 
-**Detailed Scenario 1:**
+**Detailed Scenario 2:**
 
-1>Create test cases to open the website on localhost: 4200
-2>In the same test, write code to click on forms and the forms' layout
-3>Go to the code of the application ngx-admin in vscode, and edit the attributes of Sign In button, add an attribute and       value as data-cy="signInButton"
-4>The application will deploy automatically
-5>Inspect the button using the new attribute and write Cypress code for the Button element
-6>Under the horizontal form, inspect the email and type the text. Inspect the password, type the text, and click on the        checkbox
-7>Use Cypress Assertion to validate if the form contains a button with the name Sign in
+Detailed Scenario 2:
+•
+1>Create a test case to open the website on localhost:4200. Under the form layout, write code to find all three radio buttons
+•
+2>Inspect the first radio button, check if it is enabled or not, and then click on it
+•
+3>Now, inspect radio button 2, check if it is enabled or not, and then click on it
+•
+4>Validate that radio button 1 should not be selected. Use cypress assertion
+•
+5>Validate whether radio button 3 is disabled or not. If radio button 3 is disabled, then use Cypress Assertion
