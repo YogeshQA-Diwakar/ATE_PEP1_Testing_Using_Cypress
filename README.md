@@ -29,7 +29,7 @@ Create a file with the name Test.spec.js and describe your first project
 
 **Detailed Scenario 1/2/3:**
 
-Detailed Scenario 1:
+**Detailed Scenario 1:**
 •
 Create test cases to open the website on localhost: 4200
 •
@@ -44,7 +44,9 @@ Inspect the button using the new attribute and write Cypress code for the Button
 Under the horizontal form, inspect the email and type the text. Inspect the password, type the text, and click on the checkbox
 •
 Use Cypress Assertion to validate if the form contains a button with the name Sign in
-Detailed Scenario 2:
+
+
+**Detailed Scenario 2:**
 •
 Create a test case to open the website on localhost:4200. Under the form layout, write code to find all three radio buttons
 •
@@ -55,7 +57,9 @@ Now, inspect radio button 2, check if it is enabled or not, and then click on it
 Validate that radio button 1 should not be selected. Use cypress assertion
 •
 Validate whether radio button 3 is disabled or not. If radio button 3 is disabled, then use Cypress Assertion
-Detailed Scenario 3:
+
+
+**Detailed Scenario 3:**
 •
 Create a test case to open the website on localhost: 4200
 •
